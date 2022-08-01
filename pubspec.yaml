@@ -29,11 +29,22 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  
+  # [Not in flutter template]
+  # Flutter package for device localization
+  # More info: https://docs.flutter.dev/development/accessibility-and-localization/internationalization
+  flutter_localizations: 
+    sdk: flutter         
 
+  # [Not in flutter template] 
+  # Flutter package for text internationalization 
+  # More info: https://docs.flutter.dev/development/accessibility-and-localization/internationalization
+  intl: ^0.17.0
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  path_provider: ^2.0.11
 
 dev_dependencies:
   flutter_test:
@@ -56,6 +67,11 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+
+  # [Not in flutter template] 
+  # Don't know exactly what it does, but it's nedded for internationalization setup
+  # More info: https://docs.flutter.dev/development/accessibility-and-localization/internationalization
+  generate: true 
 
   # To add assets to your application, add an assets section, like this:
   # assets:

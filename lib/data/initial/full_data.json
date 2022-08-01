@@ -1,0 +1,12 @@
+{
+    "extract": [],
+    "financialEducation": {
+        "spendingLimit": {
+            "type": "weekly",
+            "value": 400
+        },
+        "spendingCategories":[
+            { "id": "food", "label-intl": "extractCategoryFood" }
+        ]
+    }
+}
